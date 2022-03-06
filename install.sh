@@ -29,6 +29,7 @@ function install() {
     [[ "$install" == "n" && "$install" == "N" ]] && continue
 }
 
+# install dev setup 
 function dev() {
    
     echo "install dev setup? [Y/n]"
@@ -53,6 +54,7 @@ function dev() {
     [[ "$setup" == "n" && "$setup" == "N" ]] && continue
 }
 
+# install update config 
 function config(){
     echo "Update config? [Y/n]"
     read config
