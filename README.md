@@ -18,7 +18,7 @@
 
 * Add ssh key to github
 
-* Clone this repo 
+* Clone this repo `git clone git@github.com:fadzrilizad/top.git`
 
 * `sudo chmod +x install.sh`
  
