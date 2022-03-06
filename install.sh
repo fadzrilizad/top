@@ -56,7 +56,8 @@ function dev() {
 function config(){
     echo "Update config? [Y/n]"
     read config
-    if [[ "$config" == "y" || "$config == "Y"]]
+
+    if [[ "$config" == "y" || "$config" == "Y" ]]
     then
         mkdir -p ~/.config/nvim
         cp init.vim ~/.config/nvim
@@ -64,7 +65,7 @@ function config(){
 
     fi
 
-    [[ "$config" == "n" && "$config" == "N" ]]
+    [[ "$config" == "n" && "$config" == "N" ]] && continue
 
 }
 
