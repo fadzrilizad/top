@@ -26,4 +26,20 @@
 
 * Open nvim and `:PlugInstall`
 
+## Optional 
+
+* Install zsh & ohmyzsh 
+```bash
+sudo apt install zsh -y
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+* Install emacs27
+```bash
+sudo add-apt-repository ppa:kelleyk/emacs -y
+sudo apt update -y
+sudo apt install emacs27 -y
+```
+
+* Install [doom emacs](https://github.com/hlissner/doom-emacs)
 
