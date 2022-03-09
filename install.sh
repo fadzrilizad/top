@@ -24,6 +24,7 @@ function install() {
         sudo apt install -y libgnutls28-dev
         sudo apt install -y libtinfo-dev 
         sudo apt install autoconf -y
+      
     fi 
 
     [[ "$install" == "n" && "$install" == "N" ]] && continue
