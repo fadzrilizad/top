@@ -43,3 +43,12 @@ sudo apt install emacs27 -y
 
 * Install [doom emacs](https://github.com/hlissner/doom-emacs)
 
+* Adding aliases in .bashrc or .zshrc
+```bash
+alias vim="nvim"
+alias vimrc="cd ~/.config/nvim/"
+alias cl="clear"
+alias tm="tmux new -s a"
+alias update="sudo apt update && sudo apt -y upgrade"
+alias em="emacs"
+```
