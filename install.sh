@@ -11,7 +11,6 @@ function install() {
         sudo apt install vim -y  
         sudo apt install neovim -y  
         sudo apt install tmux -y  
-        sudo apt install git -y 
         sudo apt install curl -y  
         sudo apt install texinfo 
         sudo apt install build-essential -y
