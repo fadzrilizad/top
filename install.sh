@@ -1,4 +1,4 @@
-#bin/bash
+#!/usr/bin/env bash
 
 # install basic app
 function install() {
